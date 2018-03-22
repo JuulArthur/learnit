@@ -1,0 +1,17 @@
+.header {
+  padding-top: 50px;
+  font-size: 3.5rem;
+  color: #FFFFFF;
+}
+
+.secondary-header {
+  font-size: 2rem;
+  color: #FFFFFF;
+  padding-top: 30px;
+}
+
+.App {
+  background: url(https://unsplash.it/1080/720/?image=377) no-repeat fixed center / cover;
+  text-align: center;
+  height: 2000px;
+}
