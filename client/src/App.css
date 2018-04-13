@@ -1,17 +1,79 @@
-.header {
-  padding-top: 50px;
-  font-size: 3.5rem;
-  color: #FFFFFF;
+element {
+  --purple: #9876aa;
+  --green: #4e9678;
+  --blue: #4c97a3;
+  --pink: #d26d9d;
+  --yellow: #f0f089;
 }
 
-.secondary-header {
+.home {
+  color: #000000;
+}
+
+.header-container {
+  background-color: #4e9678;
+  color: #f0f089;
+  padding: 50px;
+}
+
+.label {
+  display: block;
+  margin: 10px;
+}
+
+.h1 {
+  font-size: 3.5rem;
+}
+
+.h2 {
   font-size: 2rem;
-  color: #FFFFFF;
-  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.h3 {
+  margin-top: 20px;
 }
 
 .App {
-  background: url(https://unsplash.it/1080/720/?image=377) no-repeat fixed center / cover;
+  background: #FFFFFF;
   text-align: center;
-  height: 2000px;
+}
+
+.form {
+  background: #4c97a3;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.register {
+  background: #f3f3f3f3;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.registerInput {
+  margin-left: 10px;
+}
+
+.about-us-container {
+  background-color: #4c97a3;
+}
+
+.about-us-image-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 20px;
+}
+
+.about-us-image {
+  max-width: 200px;
+}
+
+.footer-container {
+  background: #9876aa;
 }

@@ -1,0 +1,21 @@
+.infoBox {
+    background-color: #f0f089;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 200px;
+    text-align: left;
+}
+
+.infoBoxTitle {
+    color: #4c97a3;
+}
+
+.infoBoxDescription {
+    color: #9876aa;
+    margin-top: 10px;
+}
+
+.coursesContainer {
+    margin-top: 30px;
+}
