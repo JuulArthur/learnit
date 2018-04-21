@@ -23,6 +23,7 @@ element {
 
 .h1 {
   font-size: 3.5rem;
+  color: cornsilk;
 }
 
 .h2 {
@@ -75,5 +76,9 @@ element {
 }
 
 .footer-container {
-  background: #9876aa;
+  background: #4c97a3;
+}
+
+.footer-link {
+  color: #f0f089;
 }

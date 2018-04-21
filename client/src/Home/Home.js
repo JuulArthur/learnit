@@ -13,7 +13,7 @@ class Home extends Component {
 
                 <ContainerWithMaxWidth>
                     <h2 className="h2">We provide opportunities</h2>
-                    <p> Courses for newcomers to Norway who wish to pursue a tech career</p>
+                    <p>Courses for newcomers to Norway who wish to pursue a tech career</p>
                     <Grid fluid>
                         <Row className="coursesContainer">
                             <Col sm="12" md="4">
@@ -45,7 +45,7 @@ class Home extends Component {
                 </div>
                 <div className="footer-container">
                     <ContainerWithMaxWidth>
-                        Contact us: <a href="mailto:hallo@weignite.tech">hallo@weignite.tech</a>
+                        Contact us: <a className="footer-link" href="mailto:hallo@weignite.tech">hallo@weignite.tech</a>
                     </ContainerWithMaxWidth>
 
                 </div>

@@ -1,5 +1,6 @@
 .infoBox {
-    background-color: #f0f089;
+    border: solid 3px #f0f089;
+    border-radius: 10px;
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -8,11 +9,11 @@
 }
 
 .infoBoxTitle {
-    color: #4c97a3;
+    color: #d26d9d;
 }
 
 .infoBoxDescription {
-    color: #9876aa;
+    color: #000;
     margin-top: 10px;
 }
 
