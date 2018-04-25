@@ -12,8 +12,6 @@ element {
 }
 
 .header-container {
-  background-color: #4e9678;
-  color: #f0f089;
   padding: 50px;
 }
 
@@ -25,7 +23,6 @@ element {
 .h1 {
   font-family: 'FiraMono';
   font-size: 3.5rem;
-  color: cornsilk;
 }
 
 .h2 {
@@ -61,7 +58,6 @@ element {
 }
 
 .about-us-container {
-  background-color: #4c97a3;
 }
 
 .about-us-image-container {
