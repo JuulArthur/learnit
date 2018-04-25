@@ -40,21 +40,8 @@ element {
   text-align: center;
 }
 
-.form {
-  background: #4c97a3;
-  max-width: 400px;
-  margin: 20px auto;
-  padding: 50px;
-}
-
-.register {
-  background: #f3f3f3f3;
-  padding: 10px;
-  margin-top: 10px;
-}
-
-.registerInput {
-  margin-left: 10px;
+.team-text {
+  margin-bottom: 30px;
 }
 
 .about-us-container {
@@ -74,6 +61,10 @@ element {
 }
 
 .footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: #4c97a3;
 }
 

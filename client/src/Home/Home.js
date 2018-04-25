@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import InfoBox from '../Components/InfoBox/InfoBox';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import { ContainerWithMaxWidth } from '../Components/ContainerWithMaxWidth/ContainerWithMaxWidth';
 import './Home.css';
 
@@ -20,7 +18,7 @@ class Home extends Component {
                 <div className="about-us-container">
                     <ContainerWithMaxWidth>
                         <h2 className="h2">About us</h2>
-                        <p>We are a team with passion for technology and help you succeed. We want to see you become all you can be!</p>
+                        <p className="team-text">We are a team with passion for technology and help you succeed. We want to see you become all you can be!</p>
                         <div className="about-us-image-container">
                             <img className="about-us-image" src="https://res.cloudinary.com/bekkimg/w_301/d_default_image.png/854" alt="team-member-1"/>
                         </div>
