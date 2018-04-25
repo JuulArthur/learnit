@@ -1,5 +1,5 @@
 {
-    "name": "We Ignite Tech",
+    "name": "We-Ignite-Tech",
     "version": "1.0.0",
     "scripts": {
         "client": "cd client && yarn start",
