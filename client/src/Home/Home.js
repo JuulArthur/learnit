@@ -35,7 +35,7 @@ class Home extends Component {
                 </div>
                 <div className="footer-container">
                     <ContainerWithMaxWidth>
-                        Contact us: <a className="footer-link" href="mailto:hallo@weignite.tech">hallo@weignite.tech</a>
+                        Contact us: <a className="footer-link" href="mailto:hello@weignite.tech">hello@weignite.tech</a>
                     </ContainerWithMaxWidth>
 
                 </div>
