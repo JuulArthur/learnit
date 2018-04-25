@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InfoBox from '../Components/InfoBox/InfoBox';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import { ContainerWithMaxWidth } from '../Components/ContainerWithMaxWidth/ContainerWithMaxWidth';
+import './Home.css';
 
 class Home extends Component {
     render() {
@@ -16,13 +17,13 @@ class Home extends Component {
                     <p>Courses for newcomers to Norway who wish to pursue a tech career</p>
                     <Grid fluid>
                         <Row className="coursesContainer">
-                            <Col sm="12" md="4">
+                            <Col xs="12" md="4">
                                 <InfoBox title="Beginner course" description="Learn the basics of programming. We introduce you to the fundamentals and basic concepts of programming. Learn to write your first programs and simple web pages." />
                             </Col>
-                            <Col sm="12" md="4">
+                            <Col xs="12" md="4">
                                 <InfoBox title="Intermediate course" description="Learn more advanced concept and paradigms of programming. We will learn how to build a complete web sites and how to make it run" />
                             </Col>
-                            <Col sm="12" md="4">
+                            <Col xs="12" md="4">
                                 <InfoBox title="Advanced course" description="So already know how to program? Learn everything you know in order to build advanced web sites and solutions, how to work with customers and deliver value for your customers" />
                             </Col>
                         </Row>
@@ -55,22 +56,3 @@ class Home extends Component {
 }
 
 export default Home;
-
-
-/*
- <h3 className="h3">Are you interested in joining our next course?</h3>
- <form className="form" onSubmit={(e) => {
- e.preventDefault();
- console.log('Du er registrert', e);
- }}>
- <label className="label">
- Name:
- <input className="registerInput" name="name" placeholder="name"/>
- </label>
- <label className="label">
- Email:
- <input className="registerInput" name="email" placeholder="my@email.com"/>
- </label>
- <button className="register">Join us now!</button>
- </form>
- */
