@@ -14,20 +14,8 @@ class Home extends Component {
 
                 <ContainerWithMaxWidth>
                     <h2 className="h2">We provide opportunities</h2>
-                    <p>Courses for newcomers to Norway who wish to pursue a tech career</p>
-                    <Grid fluid>
-                        <Row className="coursesContainer">
-                            <Col xs="12" md="4">
-                                <InfoBox title="Beginner course" description="Learn the basics of programming. We introduce you to the fundamentals and basic concepts of programming. Learn to write your first programs and simple web pages." />
-                            </Col>
-                            <Col xs="12" md="4">
-                                <InfoBox title="Intermediate course" description="Learn more advanced concept and paradigms of programming. We will learn how to build a complete web sites and how to make it run" />
-                            </Col>
-                            <Col xs="12" md="4">
-                                <InfoBox title="Advanced course" description="So already know how to program? Learn everything you know in order to build advanced web sites and solutions, how to work with customers and deliver value for your customers" />
-                            </Col>
-                        </Row>
-                    </Grid>
+                    <p>Courses for newcomers to Norway who wish to pursue a tech career.</p>
+                    <p>We provide courses with relevant information, from people working in the business!</p>
                 </ContainerWithMaxWidth>
                 <div className="about-us-container">
                     <ContainerWithMaxWidth>
