@@ -41,6 +41,9 @@ class Home extends Component {
                         <div className="about-us-image-container">
                             <img className="about-us-image" src="https://res.cloudinary.com/bekkimg/w_301/d_default_image.png/956" alt="team-member-3"/>
                         </div>
+                        <div className="about-us-image-container">
+                            <img className="about-us-image" src="https://res.cloudinary.com/bekkimg/w_301/d_default_image.png/413" alt="team-member-4"/>
+                        </div>
                     </ContainerWithMaxWidth>
                 </div>
                 <div className="footer-container">
