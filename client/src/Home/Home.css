@@ -6,6 +6,7 @@ element {
   --yellow: #f0f089;
 }
 
+
 .home {
   color: #000000;
 }
@@ -22,6 +23,7 @@ element {
 }
 
 .h1 {
+  font-family: 'FiraMono';
   font-size: 3.5rem;
   color: cornsilk;
 }

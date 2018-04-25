@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FiraMono';
+    src: url('/fonts/FiraMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'RobotLight';
+    src: url('/fonts/Robot-Light.ttf');
+}
