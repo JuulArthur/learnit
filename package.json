@@ -1,5 +1,5 @@
 {
-    "name": "kodekampen-finale",
+    "name": "We Ignite Tech",
     "version": "1.0.0",
     "scripts": {
         "client": "cd client && yarn start",
